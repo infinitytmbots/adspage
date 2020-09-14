@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Discortics</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css'>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css'><link rel="stylesheet" href="http://discortics.rf.gd/css/cocstyle.css">
+
+</head>
+<body>
+<div class="slide-container">
+  
+  <div class="wrapper">
+    <div class="clash-card barbarian">
+      <div class="clash-card__image clash-card__image--barbarian">
+        <img src="https://i.imgur.com/kW2UE7Y.png" style='padding-top:100px;padding-left:140px;width:300px' alt="barbarian" />
+      </div>
+      <div class="clash-card__level clash-card__level--barbarian">No. 1</div>
+      <div class="clash-card__unit-name">Application System</div>
+      <div class="clash-card__unit-description">
+        A perfect Application System for recruiting staffs. Questions, as well as answered are well stored, easily managable and lets you have the full control over it by closing and opening the applications. 
+      </div>
+
+      <div class="clash-card__unit-stats clash-card__unit-stats--barbarian clearfix">
+        
+        <div class="no-border">
+          <div class="stat"></div>
+          <div class="stat-value" style="padding-top:10px;padding-bottom:10px;align:center;">Over 120+ Commands</div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  
+  <div class="wrapper">
+    <div class="clash-card archer">
+      <div class="clash-card__image clash-card__image--archer">
+        <img src="https://i.imgur.com/FX57cdM.png" style='padding-top:50px;padding-left:80px;width:300px' alt="archer" />
+      </div>
+      <div class="clash-card__level clash-card__level--archer">No. 2</div>
+      <div class="clash-card__unit-name">Moderation</div>
+      <div class="clash-card__unit-description">
+        Discortics provides you a premium moderation experience. Mods are well logged as well as managable. The user is dmed concerning the punishment as well as the punishments are registered.
+      </div>
+
+      <div class="clash-card__unit-stats clash-card__unit-stats--archer clearfix">
+        <div class="no-border">
+          <div class="stat"></div>
+          <div class="stat-value" style="padding-top:10px;padding-bottom:10px;align:center;">5K+ Happy Users</div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  
+  <div class="wrapper">
+    <div class="clash-card giant">
+      <div class="clash-card__image clash-card__image--giant">
+        <img src="https://i.imgur.com/jLj98TH.png" style='padding-top:50px;padding-left:50px;width:300px' alt="giant" />
+      </div>
+      <div class="clash-card__level clash-card__level--giant">No. 3</div>
+      <div class="clash-card__unit-name">Admin Settings</div>
+      <div class="clash-card__unit-description">
+        Unbelievable features all at once in a single bot! Profanity filter, anti-spam, member count channel, suggestion/cofession channels and way more!
+      </div>
+
+      <div class="clash-card__unit-stats clash-card__unit-stats--giant clearfix">
+        <div class="no-border">
+          <div class="stat"></div>
+          <div class="stat-value" style="padding-top:10px;padding-bottom:10px;align:center;">Lowest ping possible and faster response!</div>
+        </div>
+
+      </div>
+
+    </div> <!-- end clash-card giant-->
+  </div> <!-- end wrapper -->
+  
+   <div class="wrapper">
+    <div class="clash-card goblin">
+      <div class="clash-card__image clash-card__image--goblin">
+        <img src="https://i.imgur.com/m0pJ053.png" style='padding-top:35px;padding-left:90px;width:275px' alt="goblin" />
+      </div>
+      <div class="clash-card__level clash-card__level--goblin">No. 4</div>
+      <div class="clash-card__unit-name">Family System</div>
+      <div class="clash-card__unit-description">
+        Live a happy discord life with your friends and partners in a beautiful way! Including a match maker system, you can even adopt your friends to your family!
+      </div>
+
+      <div class="clash-card__unit-stats clash-card__unit-stats--goblin clearfix">
+        <div class="no-border">
+          <div class="stat"></div>
+          <div class="stat-value" style="padding-top:10px;padding-bottom:10px;align:center;">Unlimited Fun!</div>
+        </div>
+
+      </div>
+
+    </div> <!-- end clash-card goblin-->
+  </div> <!-- end wrapper -->
+  
+  <div class="wrapper">
+    <div class="clash-card wizard">
+      <div class="clash-card__image clash-card__image--wizard">
+        <img src="https://i.imgur.com/6FovxaS.png" style='padding-top:55px;padding-left:40px;width:275px' alt="wizard" />
+      </div>
+      <div class="clash-card__level clash-card__level--wizard">Still Counting?</div>
+      <div class="clash-card__unit-name">And a lot More!</div>
+      <div class="clash-card__unit-description">
+        Discortics is one of the fastest growing powerful bot! With latest Ui designed website and safe dashboard, Discortics is far enough to cover up all your requirements.
+      </div>
+
+      <div class="clash-card__unit-stats clash-card__unit-stats--wizard clearfix">
+        <div class="no-border">
+          <div class="stat"></div>
+          <div class="stat-value" style="padding-top:10px;padding-bottom:10px;align:center;">99.999% Uptime</div>
+        </div>
+
+      </div>
+
+    </div> <!-- end clash-card wizard-->
+  </div> <!-- end wrapper -->
+  
+</div> <!-- end container -->
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js'></script><script>
+(function() {
+  
+  var slideContainer = $('.slide-container');
+  
+  slideContainer.slick();
+  
+  $('.clash-card__image img').hide();
+  $('.slick-active').find('.clash-card img').fadeIn(200);
+  
+  // On before slide change
+  slideContainer.on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+    $('.slick-active').find('.clash-card img').fadeOut(1000);
+  });
+  
+  // On after slide change
+  slideContainer.on('afterChange', function(event, slick, currentSlide) {
+    $('.slick-active').find('.clash-card img').fadeIn(200);
+  });
+  
+})();</script>
+<script src='https://kenwheeler.github.io/slick/slick/slick.js'></script>
+</body>
+</html>
